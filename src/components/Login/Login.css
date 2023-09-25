@@ -1,0 +1,50 @@
+.form-inline {
+    position: absolute;
+    padding: 1rem 3rem;
+    width: 60vmin !important;
+    color: white;
+    border-radius: 20px;
+    background-color: white !important;
+    top: 6rem;
+    left: 35%;
+    padding: 35px 40px;
+    border: 1px solid rgba(126, 97, 97, 0.151);
+    
+  } 
+  .form-inline label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: blueviolet;
+  }
+  
+  .forgot-password {
+    margin-bottom: 1rem;
+    margin-top: -0.8rem;
+    text-align: center;
+  }
+  
+  .forgot-password a {
+    color: rgb(151, 76, 212);
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .create-new-account button {
+    width: 100%;
+    border: none;
+    padding: 0;
+    color: rgb(151, 76, 212) !important;
+    text-decoration: underline;
+    outline: none;
+    background: none;
+  }
+  
+  .form-inline .login-button {
+    border: 1px solid red;
+    width: 100%;
+  }
+  
+  .form-inline h2 {
+    color: blueviolet;
+  }
+  
