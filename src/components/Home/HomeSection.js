@@ -10,24 +10,28 @@ const HomeSection = () => {
       place: "MUMBAI, MI",
       specPlace: "ENERGY MUSIC THEATRE",
     },
+
     {
       id: uuidv4(),
       date: "JULY25",
       place: "LUCKNOW, LG",
       specPlace: "CRICKET GROUND",
     },
+
     {
       id: uuidv4(),
       date: "JULY29",
       place: "MUMBAI, MI",
       specPlace: "ENERGY MUSIC THEATRE",
     },
+
     {
       id: uuidv4(),
       date: "AUG15",
       place: "DELHI, NDLS",
       specPlace: "FILM CITY",
     },
+
     {
       id: uuidv4(),
       date: "AUG26",
@@ -35,6 +39,7 @@ const HomeSection = () => {
       specPlace: "CINEMA HALL",
     },
   ];
+
   return (
     <section className="container">
       <h2>TOURS</h2>

@@ -51,7 +51,7 @@ const CartProvider = (props) => {
           .replaceAll(".", "")
           .replaceAll("_", "");
         const response = await fetch(
-          `https://ecommerce-website-274ca-default-rtdb.firebaseio.com/cart/${filteredEmail}.json`,
+          `https://user-specific-c59f0-default-rtdb.firebaseio.com/cart/${filteredEmail}.json`,
           {
             method: "GET",
             headers: { "Content-Type": "application/json" },

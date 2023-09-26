@@ -37,7 +37,7 @@ const CartItem = (props) => {
           }
         }
         const resDel = await fetch(
-          `https://ecommerce-website-274ca-default-rtdb.firebaseio.com/cart/${filteredEmail}/${getKey}.json`,
+          `https://ecommerce-website-1a003-default-rtdb.firebaseio.com/cart/${filteredEmail}.json`,
           {
             method: "DELETE",
             headers: { "Content-Type": "application/json" },

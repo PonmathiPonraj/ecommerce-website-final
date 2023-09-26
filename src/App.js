@@ -27,7 +27,7 @@ const App = () => {
         company: "Smartees",
         title: "Men Full Sleeve Printed Hooded",
         price: 599,
-        imageUrl: "assests/hoodie1/hoodie1.webp",
+        imageUrl: "https://tse3.mm.bing.net/th?id=OIP.XRpWu0bExVHTRVyiriQf4AHaHa&pid=Api&P=0&h=180",
       },
 
       {
@@ -36,7 +36,7 @@ const App = () => {
         company: "Fastoche",
         title: "Men Full Sleeve Printed Hooded",
         price: 749,
-        imageUrl: "assests/hoodie2/hoodie2.webp",
+        imageUrl: "https://tse3.mm.bing.net/th?id=OIP.M550p2-WXuV90ATm5D_X0AHaHa&pid=Api&P=0&h=180",
       },
 
       {
@@ -45,7 +45,7 @@ const App = () => {
         company: "Alan Jones",
         title: "Men Full Sleeve Solid Hooded",
         price: 500,
-        imageUrl: "assests/hoodie3/hoodie3.webp",
+        imageUrl: "https://tse2.mm.bing.net/th?id=OIP.lDXeKtBI-2Jf0j7I5ODcewHaHa&pid=Api&P=0&h=180",
       },
 
       {
@@ -54,7 +54,7 @@ const App = () => {
         company: "Kay Dee",
         title: "Men Colorblock Hooded",
         price: 349,
-        imageUrl: "assests/hoodie4/hoodie4.webp",
+        imageUrl: "https://tse2.mm.bing.net/th?id=OIP.3gFIIKAYDNf6ExHeNoLKuAHaHa&pid=Api&P=0&h=180",
       },
     ],
     []
