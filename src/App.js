@@ -1,7 +1,6 @@
 import "./App.css";
 import CartItem from "./components/Cart/CartItem";
-import React, { useMemo, useState, useContext } from "react";
-import Home from "./components/Home/Home";
+import React, { useMemo, useState, useContext, Suspense } from "react";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import {
@@ -14,6 +13,8 @@ import Contact from "./ContactUs/Contact";
 import Products from "./components/Layout/Products";
 import Login from "./components/Login/Login";
 import MyContext from "./store/MyContext";
+
+const Home = React.lazy(() => import('./components/Home/Home'));
 
 const App = () => {
   const [showCart, setShowCart] = useState(false);
@@ -68,6 +69,13 @@ const App = () => {
     <Router>
       <Header />
       <div>
+        <Suspense 
+          fallback = {
+            <div className="centered">
+              Loading....
+            </div>
+          }
+        >
         <Switch>
           <Route exact path="/">
             <Redirect to="/home" />
@@ -102,8 +110,8 @@ const App = () => {
           <Route path='/*'>
             <Login />
           </Route>
-
         </Switch>
+        </Suspense>
       </div>
     </Router>
   );
