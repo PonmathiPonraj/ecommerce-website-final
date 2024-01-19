@@ -29,7 +29,7 @@ const CartItem = (props) => {
         const getData = await resGet.json();
         if(!resGet.ok) throw new Error(getData.error);
 
-        let getKey = null;
+       const getKey = null;
         for(let key in getData) {
           if(getData[key].id === id) {
             getKey = key;
